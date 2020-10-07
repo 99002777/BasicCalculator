@@ -40,7 +40,7 @@ int main()
             case '?': modulus();
                       break;
  
-            case '!': factorial();
+            case 'e': exponential();
                       break;
  
             case '^': power();
