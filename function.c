@@ -96,25 +96,23 @@ void power()
     printf("\n%lf to the power %lf = %lf \n",a,num,p);
 }
  
-int factorial()
+void exponential()
 {
-    int i,fact=1,num;
- 
-    printf("\nEnter a number to find factorial : ");
-    scanf("%d",&num);
- 
-    if (num<0)
-    {
-        printf("\nPlease enter a positive number to");
-        printf(" find factorial and try again. \n");
-        printf("\nFactorial can't be found for negative");
-        printf(" values. It can be only positive or 0  \n");
-        return 1;
-    }               
- 
-    for(i=1;i<=num;i++)
-    fact=fact*i;
-    printf("\n");
-    printf("Factorial of entered number %d is:%d\n",num,fact);
+   
+    double value;
+    double result;
+    printf("\nEnter two number to find the exponential \n");
+    printf("number: ");
+    scanf("%lf",&value);
+
+    /* Assign the value we will find the exp of */
+   
+
+    /* Calculate the exponential of the value */
+    result = exp(value);
+
+    /* Display the result of the calculation */
+    printf("The Exponential of %f is %f\n", value, result);
+
     return 0;
 }
