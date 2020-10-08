@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = MakeCalculator
+PROJECT_NAME = BasicCalculator
 
 # Output directory
 BUILD = build
